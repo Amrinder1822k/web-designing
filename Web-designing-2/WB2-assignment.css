@@ -1,0 +1,52 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  float:left;
+  width:100%;
+  height: 800px;
+}  
+
+.nav {
+  float:left;
+  width:100%;
+  height: 50px;
+background-color: skyblue;
+}
+  
+.left {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  height: 300px;
+}
+
+.middle {
+  float:left;
+  width:60%;
+  height: 300px;
+  background-color:yellow;
+}
+
+.right{
+   background-color:red;
+  float:left;
+  width:20%;
+  height: 300px;
+}
+
+.bottom{
+  background-color:black; 
+float: left; width:100%;
+height:50px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .left, .middle, .right {
+    width:100%;
+  }
+}
+</style>
