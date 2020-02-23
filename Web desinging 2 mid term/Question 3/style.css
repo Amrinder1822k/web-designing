@@ -1,0 +1,39 @@
+.main{
+	width: 960px;
+	height: 250px;
+    background-color: red;
+    float: left;
+}
+.a{
+	width: 280px;
+	height: 180px;
+	background-color: blue;
+	float: left;
+
+}
+.b{
+	width: 280px;
+	height: 180px;
+	background-color: green;
+	float: left;
+}
+.c{
+	width: 280px;
+	height: 180px;
+	background-color: yellow;
+	float: left;
+}
+.main div{
+	margin: 20px;
+}
+@media only screen and (max-width: 800px) {
+.a,.b,.c {
+width:70%;
+}
+}
+@media only screen and (max-width: 800px) {
+.main {
+	width: 30%;
+	height: 100%;
+}
+}

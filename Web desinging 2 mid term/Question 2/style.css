@@ -1,0 +1,29 @@
+.main{
+	width: 960px;
+	height: 250px;
+	margin-left: 300px;
+	border: solid black 2px;
+}
+.a{
+	width: 960px;
+	height: 50px;
+	border: solid black 1px;
+  }  
+.b{
+	width: 318px;
+	float: left;
+	height: 199px;
+	border: solid black 1px;
+}
+.c{
+	width: 318px;
+	float: left;
+	height: 199px;
+	border: solid black 1px;
+}
+.d{
+	width: 318px;
+	float: left;
+	height: 199px;
+	border: solid black 1px;
+}
