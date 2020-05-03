@@ -1,0 +1,97 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.mian{
+  width: 100%;
+  float: left;
+}
+.navbar{
+float: left;
+height: 100px;
+width: 100%;
+}
+.search-container{
+margin-top: 12px;
+float: right;
+margin-right: 5px;
+}
+.first{
+  background-color:#eceeef;
+  float: left;
+  height: 300px;
+  width: 100%
+}
+.second{
+  background-color:white;
+  float: left;
+  height: 400px;
+  width: 100%
+}
+.button {
+  background-color: #0275d8; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.para-a{
+ background-color:white;
+  float: left;
+  height: 300px;
+  width: 33.33%
+}
+.para-b{
+ background-color:white;
+  float: left;
+  height: 300px;
+  width: 33.33%
+}
+.para-c{
+ background-color:white;
+  float: left;
+  height: 300px;
+  width: 33.33%;
+}
+.last{
+  width: 100%;
+  float: left;
+  height:10px;
+}
+.button1{
+  background-color: white; 
+  border: solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  cursor: pointer; 
+}
+
