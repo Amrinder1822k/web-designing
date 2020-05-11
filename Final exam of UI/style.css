@@ -1,0 +1,79 @@
+.navbar{
+float: left;
+height: 4.5rem;
+width: 100%;
+background-color: #563d7c;
+}
+.paragraph{
+float: left;
+height: 30rem;
+width: 50%;
+}
+.logo{
+float: left;
+height: 30rem;
+width: 50%;
+}
+.first{
+float: left;
+height: 30rem;
+width: 33%;
+background-color: #f8f9fa;
+}
+.space-a{
+float: left;
+height: 25rem;
+width: .5%;
+background-color: white;
+}
+.second{
+float: left;
+height: 30rem;
+width: 33%;
+background-color: #f8f9fa;
+}
+.space-b{
+float: left;
+height: 25rem;
+width: .5%;
+background-color: white;
+}
+.third{
+float: left;
+height: 30rem;
+width: 33%;
+background-color: #f8f9fa;
+}
+.space-c{
+float: left;
+height: .5rem;
+width: 100%;
+background-color: white;
+}
+.last{
+float: left;
+height: 12rem;
+width: 100%;
+background-color:#f8f9fa;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #cbbde2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ margin-top: 8px;
+font-size: 20px;
+}
