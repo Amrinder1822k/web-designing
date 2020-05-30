@@ -1,0 +1,30 @@
+.a{
+width: 50%;
+float: left;
+height: 400px;	
+background-color: black;
+}
+.b{
+width: 50%;
+float: left;
+height: 400px;	
+background-color: red;
+}
+.c{
+width: 33.33%;
+float: left;
+height: 400px;	
+background-color: yellow;
+}
+.d{
+width: 33.33%;
+float: left;
+height: 400px;	
+background-color: brown;
+}
+.e{
+width: 33.33%;
+float: left;
+height: 400px;	
+background-color: black;
+}
