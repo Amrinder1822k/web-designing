@@ -1,0 +1,40 @@
+.a{
+width: 49.67%;
+float: left;
+height: 400px;	
+border-style: solid;
+border-width: 2px;
+border-color: black;
+}
+.b{
+width: 49.67%;
+float: left;
+height: 400px;	
+border-style: solid;
+border-width: 2px;
+border-color: black;
+}
+.c{
+width: 33%;
+float: left;
+height: 400px;	
+border-style: solid;
+border-width: 2px;
+border-color: black;
+}
+.d{
+width: 33%;
+float: left;
+height: 400px;	
+border-style: solid;
+border-width: 2px;
+border-color: black;
+}
+.e{
+width: 33%;
+float: left;
+height: 400px;	
+border-style: solid;
+border-width: 2px;
+border-color: black;
+}
