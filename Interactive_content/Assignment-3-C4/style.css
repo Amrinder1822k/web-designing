@@ -1,0 +1,16 @@
+/* Exercise 1: */
+#a{
+  width: 150px;
+  height: 80px;
+  background-color: red;
+}
+#a:hover{
+    transform: rotate(40deg);
+}
+
+/* Exercise 2: */
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+    transform: rotate(10deg);
+  }

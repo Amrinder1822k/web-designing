@@ -1,0 +1,13 @@
+.dropdown-content {
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* ********  HOMEWORK 1 STARTs HERE ******** */
+
+
+/* ********  HOMEWORK 1 ENDs HERE ******** */

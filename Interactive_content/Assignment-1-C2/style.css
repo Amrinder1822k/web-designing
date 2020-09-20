@@ -1,0 +1,4 @@
+DOM (Document object model): is the browser's internal programmatic representation of the web-page. Can be manupulated by the languages like JS, Changing the page without changing html.
+
+Browser converts the code(index.html) into DOM.
+Using JS, we can change anything in the DOM.
