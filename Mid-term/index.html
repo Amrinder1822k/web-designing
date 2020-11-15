@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mid-Term</title>
+	<link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body style="background-color: black">
+	<div class="Regform"><h1 style="color: white"> Registration Form </h1></div>
+	<div class="Main">
+		<form>
+			<div id="dataf">
+			<label class="firstlabel">First Name </label>
+			<input class="firstname" id="fname" name="first_name"><br><br>
+			<label class="lastlabel">Last Name</label>
+			<input class="lastname" type="text" name="last_name"><br><br>
+			<label class="bloodgroup">Blood Group</label> 
+			<select name="bloodgroup" id="bloodgroup">
+            <option value="bg">A+</option>
+            <option value="bg">B+</option>
+            <option value="bg">O+</option>
+            <option value="bg">AB+</option>
+            <option value="bg">A-</option>
+            <option value="bg">B-</option>
+            <option value="bg">O-</option>
+            <option value="bg">AB-</option>
+            </select><br><br>
+            <label class="Mobileno">Mobile Number</label>
+			<input class="Mobileno" type="text" name="Mobileno"><br><br>
+			 <label class="stuid">Student ID Number</label>
+			<input class="stuid" type="text" name="stuid"><br><br>
+			<label for="Address">Address :</label>
+            <textarea id="Address" name="Address" rows="4" cols="50">
+            </textarea>
+            <p>Do you have a car?</p>
+  <input type="radio" id="yes" value="Yes">
+  <label for="male">Yes</label> 
+  <input type="radio" id="no" value="No">
+  <label for="female">No</label> <br><br>
+  <label class="lastlabel">Age</label>
+  <input class="Age" type="text" name="Age"><br><br>
+   <label for="Gender">Gender</label>
+  <select name="Gender" id="Gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select><br><br>
+   <label for="Maritial Status">Marital Status</label>
+  <select name="Maritial Status" id="Maritial Status">
+    <option value="Single">Single</option>
+    <option value="Married">Married</option>
+    <option value="Divorced">Divorced</option>
+  </select><br><br>
+   <input type="submit" value="Submit" onclick="formvalue()" style="margin-left: 420px;
+font-size: 30px;">
+  		</div>
+      <div>
+        <ul id="displaydata">
+          
+        </ul>
+      </div>
+	</form>
+</div>
+</body>
+</html>
