@@ -1,0 +1,43 @@
+.main{
+width: 100%;
+height: 980px;
+}
+.cont{
+    width: 20%;
+	height: 700px;
+	float: left;	
+}
+.logo{
+	width: 100%;
+	height: 450px;
+	float: left;
+}
+.image{
+	width: 40%;
+	height: 700px;
+	float: left;
+}
+.video{
+	width: 40%;
+	height: 700px;
+	float: left;
+	background-color: black;
+}
+.anim{
+	width: 100%;
+	height: 250px;
+	background-color:silver;
+	float: left;
+	 animation: mymove 2s infinite;
+     animation-play-state: play;
+}
+@keyframes mymove {
+  from {background-color: black;}
+  to {background-color: white;}
+}
+.detail{
+    width: 100%;
+	height: 280px;
+	float: left;	
+}
+@media screen and (max-width:800px)
