@@ -1,0 +1,38 @@
+.main{
+width: 100%;
+height: 980px;
+}
+.blc{
+width: 100%;
+height: 40px;
+}
+.resume{
+	width: 35%;
+    height: 900px;
+    margin-left: 600px;
+    background-color: white;
+}
+.info{
+	width: 40%;
+    height: 300px;
+    float: left;
+    background-color: #E5B0AD;
+}
+.profsum{
+	width: 60%;
+    height: 300px;
+    float: left;
+    background-color:#fcf7f7;
+}
+.skills{
+	width: 40%;
+    height: 600px;
+    float: left;
+    background-color:#faefef;
+}
+.work{
+    width: 60%;
+    height: 600px;
+    float: left;
+    background-color:#E5B0AD;
+}
