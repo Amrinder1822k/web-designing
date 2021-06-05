@@ -1,0 +1,20 @@
+.bg_color_sb{
+    background-color: rgb(166, 192, 248);
+}
+.bg_color{
+    background-color: white;
+}
+.card{
+    padding: 1.5rem;
+    background-color: rgb(166, 192, 248);
+}
+.row{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+.card a{
+    border-color: black;
+}
+.form-control{
+    margin-bottom: 1rem;
+}
