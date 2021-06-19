@@ -18,7 +18,7 @@ function registerUser(){
             $.post({url: url, data: data, success: function(data){
                 if(data.result == true){
                     alert("Registration Success!!!!!");
-                    location.href="login.html";
+                    location.href="index.html";
                 }else{
                     alert(data.msg);
                 }

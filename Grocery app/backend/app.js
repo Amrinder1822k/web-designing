@@ -6,18 +6,15 @@ var { v4: uuidv4 } = require('uuid');
 
 var app = express(); // Express is sleeping and we want awake it. So, we are calling it.
 var users = require('./json/users.json');
-const { json } = require('body-parser');
-// for parsing application/xwww-
-app.use(bodyParser.urlencoded({ extended: true })); 
-//form-urlencoded
+var  groceriesInfoJSON=require('./json/groceries.json');
+
 
 
 var port = 5555;  // We are assigning address to the server.
-
+var jsonParser=bodyParser.json()
 app.use(cors());
 app.use(express.static('images'));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser());
  
 
 app.post('/login', (req, res) => {
@@ -56,9 +53,41 @@ app.post('/register', (req, res) => {
   }
   res.json(result);
 });
-// Assigning address to the express & telling express 
-// if someone will communicate with you on this address,
-// You need to respond to that request.
+app.get('/getGroceryInfo/:id', (req, res) => {
+  var groceryName = req.params.id; // Getting the Item name.
+  var result = null;  // This variable will tell if we have a Item or not.
+  for (var i=0; i < groceriesInfoJSON.length; i++){
+    if(groceriesInfoJSON[i]["groceryName"] == groceryName) result = groceriesInfoJSON[i];
+  }
+  res.json({result});
+});
+
+
+app.get('/getGroceryInfoBasedOnId/:id', (req, res) => {
+  var groceryId = req.params.id; // Getting the Item name.
+  var result = null;  // This variable will tell if we have a grocery or not.
+  for (var i=0; i < groceriesInfoJSON.length; i++){
+    if(grociersInfoJSON[i]["id"] == groceryId) result = groceriesInfoJSON[i];
+  }
+  res.json({result});
+});
+
+
+app.post('/addGrocery', (req, res) => {
+  var groceryName = req.body["groceryName"];
+  var Url = req.body["Url"];
+  console.log("groceryName",groceryName)
+  console.log("Url",Url)
+  groceriesInfoJSON.push({id: uuidv4(), "groceryName": groceryName, "Url": Url, "imageName":"book1.jpg"});
+  var groceries = JSON.stringify(groceriesInfoJSON);
+  fs.writeFileSync('json/groceries.json', groceries);
+  res.json({"result": true}); 
+});
+
+
+app.get('/getAllGroceries', (req, res) => {
+  res.json({groceriesInfoJSON});
+});
 app.listen(port, () => {
   console.log(`Backend of Grocery App is listening at http://localhost:${port}`);
 })

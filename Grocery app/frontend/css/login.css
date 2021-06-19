@@ -10,7 +10,7 @@ body {
     background-color:rgb(0, 0, 0);
 }
 .h3{
-    color: white;
+    color: lightgreen;
 }
 
 .form-signin {
@@ -47,8 +47,8 @@ body {
     user-select: none;
   }
   .btn-primary{
-    background-color: green;
-    border-color: green;
+    background-color: lightgreen;
+    border-color: lightgreen;
     color:black;
   }
   

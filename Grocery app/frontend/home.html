@@ -4,14 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <title>Farm Fresh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/home.js"></script>
 </head>
 <body>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg_color_sb">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"></a>
+          <img src="images/rlogo.jpg" alt="" height="50" width="50">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"><p1>Home</p1></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="addGrocery.html"><p1>Add&nbsp;Grocery</p1></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="updateGrocery.html"><P1>Update&nbsp;Grocery</p1></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="deleteGrocery.html"><P1>Delete&nbsp;Grocery</P1></a>
+            </li>
+                </a>
+              </li>
+              <div class="d-flex">
+                <button id="logout" class="btn btn-outline-success" type="button">Logout</button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container_fluid bg_color_white text-center" style="margin-top: 5rem;">
+     <h1>Farm Fresh</h1> </div>
+     <div class="row"> 
+       <div class="col-md-3"></div>
+       <div class="col-md-6">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </div> <div class="col-md-3"></div>
+      
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://st2.depositphotos.com/7036298/10694/i/600/depositphotos_106948346-stock-photo-ripe-red-apple-with-green.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Apple</h5>
+              <p class="card-text">The mild yet sweet flavour of the Gala apple has made it a family favourite for snacks, salads and sauces. The vibrant red mixes in with subtle hints of green to give the apple its unmistakable look.</p>
+              <a href="https://www.walmart.ca/en/ip/apple-gala/6000195494284" class="btn bg_color" target="_blank">Go To Store</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="https://cdn.shopify.com/s/files/1/0422/4601/3078/products/picupload55_600x.jpg?v=1619302816" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Milk</h5>
+                <p class="card-text">Nothing compares to a cold glass of fresh Sealtest Milk. A light, refreshing and natural taste with immense nutritional value. Sealtest offers you quality milk in all varieties.</p>
+                <a href="https://www.walmart.ca/en/ip/sealtest-homogenized-325-milk/6000199047981" class="btn bg_color" target="_blank">Go To Store</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="https://i5.walmartimages.ca/images/Large/580/6_r/875806_R.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Banana</h5>
+                  <p class="card-text">Organic, soft, sweet and delicious. The banana is a popular choice for breakfast, snacks or any time of the day. The vibrant yellow peel provides natural protection.</p>
+                  <a href="https://www.walmart.ca/en/ip/banana-organic/6000191272014" class="btn bg_color" target="_blank">Go To Store</a>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="https://i5.walmartimages.ca/images/Enlarge/000/123/999999-999999-674959000123.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Eggs</h5>
+                    <p class="card-text">Looking for better value on the omega-3 eggs your family loves? Make the switch to GoldEgg Omega-3 18-egg value pack so you'll never again need to worry about.</p>
+                    <a href="https://www.walmart.ca/en/ip/goldegg-omega-3-large-white-eggs/6000191286222" class="btn bg_color" target="_blank">Go To Store</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+                <div class="row">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="https://i5.walmartimages.ca/images/Enlarge/094/511/6000200094511.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tomato</h5>
+                      <p class="card-text">Roma tomato are a popular choice for canning or sauces, since they do not have very many seeds makes them a popular choice for salads.</p>
+                      <a href="https://www.walmart.ca/en/ip/tomato-roma/6000191272054" class="btn bg_color" target="_blank">Go To Store</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <img src="https://i5.walmartimages.ca/images/Enlarge/142/911/6000196142911.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Onion</h5>
+                        <p class="card-text">Red onions add an extra punch of flavour to any salad. They are best stored in a cool, dry place in order to prolong their shelf life. </p>
+                        <a href="https://www.walmart.ca/en/ip/onion-red/6000196142910" class="btn bg_color" target="_blank">Go To Store</a>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="https://i5.walmartimages.ca/images/Enlarge/284/684/6000191284684.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pepper</h5>
+                          <p class="card-text">Whether sautéed, raw or chopped up in a salad, these rainbow peppers bring flavour, crunch and colour to any meal.</p>
+                          <a href="https://www.walmart.ca/en/ip/pepper-rainbow-bell/6000191284683" class="btn bg_color" target="_blank">Go To Store</a>
+                        </div>
+                      </div>
+                      </div>
+                      <!-- <div class="col-md-3">
+                        <div class="card">
+                          <img src="https://i5.walmartimages.ca/images/Enlarge/130/014/6000199130014.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Juice</h5>
+                            <p class="card-text">Allen’s has been one of Canada’s favourite fruit juice brands for more than 80 years! Create delicious drinks that everyone can be proud of.
+                            </p>
+                            <a href="https://www.walmart.ca/en/ip/allens-fruit-punch/6000112371534" class="btn bg_color" target="_blank">Go To Store</a>
+                          </div>
+                        </div>
+                      </div> -->
+                      <div class="space"></div>
+                      <footer class="footer mt-auto py-3 bg_color_sb text-center">
+                        <div class="container">
+                          <span class="text-muted">@2021 WebApp For Grocery</span>
+                        </div>
+                      </footer>
+                        
+    
 </body>
 </html>
